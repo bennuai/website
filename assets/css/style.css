@@ -166,12 +166,14 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
+  /*display: none;*/
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .header.header-scrolled {
+  /*display: inline;*/
   background: #fff;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
@@ -432,7 +434,8 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #056e05;
+  color: white;
+  font-family: "Open Sans"
 }
 
 .hero h2 {
