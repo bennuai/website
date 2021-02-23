@@ -442,12 +442,16 @@ section {
   color: #444444;
   margin: 0 0 0 0;
   font-size: 26px;
-    text-align: justify;
+  text-align: justify;
 }
  .hero h2 span{
 
   background-color: white;
   padding: 0 6px 0 6px
+ }
+ .hero h2 span:hover{
+   text-decoration-line: underline;
+   color: #84d407;
  }
 .hero .btn-get-started {
   margin-top: 30px;
