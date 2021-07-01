@@ -15,15 +15,16 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #fff;
 }
 
 a {
-  color: #84d407;
+  color: #056e05;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #84d407;
   text-decoration: none;
 }
 
@@ -130,7 +131,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #84d407;
+  background: #056e05;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -144,7 +145,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #b7ed61;
+  background: #84d407;
   color: #fff;
 }
 
@@ -227,7 +228,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #079407;
+  color: #056e05;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -635,13 +636,13 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #0aad0a;
+  color: #056e05;
 }
 
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;fff
   font-size: 14px;
 }
 
